@@ -31,7 +31,7 @@ To-Do List App built using HTML, CSS, and JavaScript! This app is designed to he
 * Task Management: Add, edit, and delete tasks with ease.
 * User-Friendly Interface: Clean design for a seamless user experience.
 * Responsive Design: Adaptable for all screen sizes, from desktops to mobile devices.
-* 
+  
 💻 Technologies Used:
 HTML, CSS, JavaScript: Leveraged these fundamental web technologies to create a functional and responsive app that enhances productivity.
 

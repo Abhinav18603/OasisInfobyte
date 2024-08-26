@@ -1,0 +1,107 @@
+/* Home.css */
+
+/* General Container Styling */
+.home-container {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevents horizontal overflow */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg') no-repeat center center/cover; /* Replace with actual image URL */
+    height: 100vh;
+    position: relative;
+    color: white; /* Ensures text contrast over the hero image */
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #f8f9fa;
+    padding: 60px 0; /* Adds spacing around the features section */
+}
+
+.feature-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures all cards are of equal height */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transition effects */
+    cursor: pointer; /* Indicates interactivity */
+}
+
+.feature-card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.feature-img {
+    width: 100%;
+    height: 200px; /* Uniform height for all images */
+    object-fit: cover; /* Ensures images cover the entire area without distortion */
+    object-position: center; /* Centers the image content within the frame */
+}
+
+.feature-card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature-card-body h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.feature-card-body p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds smooth transition for button */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px; /* Adds space between footer and main content */
+}
